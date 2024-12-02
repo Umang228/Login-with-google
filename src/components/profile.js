@@ -39,7 +39,7 @@ function Profile() {
             <img
               src={userDetails.photo}
               width={"40%"}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%" , marginBottom: "5px"}}
             />
           </div>
           <h3>Welcome {userDetails.firstName}</h3>
